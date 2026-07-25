@@ -254,7 +254,7 @@ function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid gap-8 md:grid-cols-3">
           <div>
-            <span className="text-lg font-semibold text-foreground">UmeGolv</span>
+            <img src={umegolvLogo.url} alt="UmeGolv" className="h-10 w-auto" />
             <p className="mt-2 text-sm text-muted-foreground">
               Professionell golvslipning, lackning och läggning av trägolv i Umeå med omnejd.
             </p>
