@@ -26,10 +26,7 @@ function Index() {
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="max-w-2xl">
-              <h1 className="text-4xl font-semibold leading-tight tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-                UmeGolv
-              </h1>
-              <p className="mt-6 text-lg text-muted-foreground">
+              <p className="text-lg text-muted-foreground">
                 UmeGolv är din lokala golventreprenör. Vi renoverar, slipar, lackar och lägger trägolv med fokus på hållbart hantverk och ett resultat du kan leva med i många år.
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
