@@ -125,9 +125,9 @@ function RootShell({ children }: { children: ReactNode }) {
 function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto flex h-44 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link to="/" className="flex items-center gap-2">
-          <img src={umegolvLogo.url} alt="UmeGolv" className="h-15 w-auto" />
+          <img src={umegolvLogo.url} alt="UmeGolv" className="h-40 w-auto" />
         </Link>
         <nav className="hidden items-center gap-8 md:flex">
           <Link
@@ -211,7 +211,7 @@ function MobileNav() {
         </svg>
       </button>
       {open && (
-        <div className="absolute left-0 right-0 top-20 border-b border-border bg-background px-4 py-4 shadow-sm">
+        <div className="absolute left-0 right-0 top-44 border-b border-border bg-background px-4 py-4 shadow-sm">
           <nav className="flex flex-col gap-3">
             <Link
               to="/"
@@ -254,7 +254,7 @@ function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid gap-8 md:grid-cols-3">
           <div>
-            <img src={umegolvLogo.url} alt="UmeGolv" className="h-15 w-auto" />
+            <img src={umegolvLogo.url} alt="UmeGolv" className="h-40 w-auto" />
             <p className="mt-2 text-sm text-muted-foreground">
               Professionell golvslipning, lackning och läggning av trägolv i Umeå med omnejd.
             </p>
