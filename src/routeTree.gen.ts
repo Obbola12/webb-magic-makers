@@ -10,6 +10,7 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as TjansterRouteImport } from './routes/tjanster'
+import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as OmOssRouteImport } from './routes/om-oss'
 import { Route as KontaktRouteImport } from './routes/kontakt'
 import { Route as IndexRouteImport } from './routes/index'
@@ -17,6 +18,11 @@ import { Route as IndexRouteImport } from './routes/index'
 const TjansterRoute = TjansterRouteImport.update({
   id: '/tjanster',
   path: '/tjanster',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
+  id: '/sitemap.xml',
+  path: '/sitemap.xml',
   getParentRoute: () => rootRouteImport,
 } as any)
 const OmOssRoute = OmOssRouteImport.update({
@@ -39,12 +45,14 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/kontakt': typeof KontaktRoute
   '/om-oss': typeof OmOssRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
   '/tjanster': typeof TjansterRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/kontakt': typeof KontaktRoute
   '/om-oss': typeof OmOssRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
   '/tjanster': typeof TjansterRoute
 }
 export interface FileRoutesById {
@@ -52,20 +60,22 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/kontakt': typeof KontaktRoute
   '/om-oss': typeof OmOssRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
   '/tjanster': typeof TjansterRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/kontakt' | '/om-oss' | '/tjanster'
+  fullPaths: '/' | '/kontakt' | '/om-oss' | '/sitemap.xml' | '/tjanster'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/kontakt' | '/om-oss' | '/tjanster'
-  id: '__root__' | '/' | '/kontakt' | '/om-oss' | '/tjanster'
+  to: '/' | '/kontakt' | '/om-oss' | '/sitemap.xml' | '/tjanster'
+  id: '__root__' | '/' | '/kontakt' | '/om-oss' | '/sitemap.xml' | '/tjanster'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   KontaktRoute: typeof KontaktRoute
   OmOssRoute: typeof OmOssRoute
+  SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   TjansterRoute: typeof TjansterRoute
 }
 
@@ -76,6 +86,13 @@ declare module '@tanstack/react-router' {
       path: '/tjanster'
       fullPath: '/tjanster'
       preLoaderRoute: typeof TjansterRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sitemap.xml': {
+      id: '/sitemap.xml'
+      path: '/sitemap.xml'
+      fullPath: '/sitemap.xml'
+      preLoaderRoute: typeof SitemapDotxmlRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/om-oss': {
@@ -106,6 +123,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   KontaktRoute: KontaktRoute,
   OmOssRoute: OmOssRoute,
+  SitemapDotxmlRoute: SitemapDotxmlRoute,
   TjansterRoute: TjansterRoute,
 }
 export const routeTree = rootRouteImport
