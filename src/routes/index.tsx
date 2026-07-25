@@ -26,12 +26,8 @@ function Index() {
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="max-w-2xl">
-              <div className="inline-flex items-center rounded-full border border-border bg-muted/50 px-3 py-1 text-sm text-muted-foreground">
-                <span className="mr-2 inline-block h-2 w-2 rounded-full bg-primary" />
-                Verksamt i Umeå med omnejd
-              </div>
-              <h1 className="mt-6 text-4xl font-semibold leading-tight tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-                Slipa, lacka eller lägga nytt trägolv
+              <h1 className="text-4xl font-semibold leading-tight tracking-tight text-foreground sm:text-5xl lg:text-6xl">
+                UmeGolv
               </h1>
               <p className="mt-6 text-lg text-muted-foreground">
                 UmeGolv är din lokala golventreprenör. Vi renoverar, slipar, lackar och lägger trägolv med fokus på hållbart hantverk och ett resultat du kan leva med i många år.
