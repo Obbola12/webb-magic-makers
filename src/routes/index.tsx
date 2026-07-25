@@ -146,7 +146,7 @@ function Index() {
       <section className="bg-primary py-16 sm:py-20">
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <h2 className="text-3xl font-semibold tracking-tight text-primary-foreground sm:text-4xl">
-            redo att förnya dina golv?
+            Redo att förnya dina golv?
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-primary-foreground/80">
             Kontakta oss för en kostnadsfri besiktning och offert. Vi svarar vanligtvis inom 24 timmar.
