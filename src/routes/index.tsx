@@ -26,10 +26,7 @@ function Index() {
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="max-w-2xl">
-              <h1 className="text-4xl font-semibold leading-tight tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-                UmeGolv
-              </h1>
-              <p className="mt-6 text-lg text-muted-foreground">
+              <p className="text-lg text-muted-foreground">
                 UmeGolv är din lokala golventreprenör. Vi renoverar, slipar, lackar och lägger trägolv med fokus på hållbart hantverk och ett resultat du kan leva med i många år.
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
@@ -112,29 +109,19 @@ function Index() {
 
       {/* Why choose us */}
       <section className="bg-background py-20 sm:py-28">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid gap-12 lg:grid-cols-2">
-            <div className="max-w-xl">
-              <h2 className="text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
-                Varför välja UmeGolv?
-              </h2>
-              <p className="mt-4 text-lg text-muted-foreground">
-                Vi är ett litet, lokalt företag som tar personligt ansvar för varje uppdrag. När du anlitar oss får du samma hantverkare från start till mål.
-              </p>
-              <ul className="mt-8 space-y-4">
-                <BenefitItem text="Lång erfarenhet av golvrenovering och installation" />
-                <BenefitItem text="Noggrant arbete med rena snitt och jämna ytor" />
-                <BenefitItem text="Miljövänliga och hållbara materialval" />
-                <BenefitItem text="Tydliga offerter och inga dolda kostnader" />
-              </ul>
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              <StatCard value="15+" label="Års erfarenhet" />
-              <StatCard value="500+" label="Genomförda uppdrag" />
-              <StatCard value="Umeå" label="Lokalt förankrade" />
-              <StatCard value="100%" label="Nöjda kunder" />
-            </div>
-          </div>
+        <div className="mx-auto max-w-3xl px-4 text-center sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
+            Varför välja UmeGolv?
+          </h2>
+          <p className="mt-4 text-lg text-muted-foreground">
+            Vi är ett litet, lokalt företag som tar personligt ansvar för varje uppdrag. När du anlitar oss får du samma hantverkare från start till mål.
+          </p>
+          <ul className="mt-8 space-y-4 text-left">
+            <BenefitItem text="Lång erfarenhet av golvrenovering och installation" />
+            <BenefitItem text="Noggrant arbete med rena snitt och jämna ytor" />
+            <BenefitItem text="Miljövänliga och hållbara materialval" />
+            <BenefitItem text="Tydliga offerter och inga dolda kostnader" />
+          </ul>
         </div>
       </section>
 
@@ -209,11 +196,3 @@ function BenefitItem({ text }: { text: string }) {
   );
 }
 
-function StatCard({ value, label }: { value: string; label: string }) {
-  return (
-    <div className="flex flex-col items-center justify-center rounded-xl border border-border bg-card p-6 text-center">
-      <span className="text-3xl font-bold text-primary">{value}</span>
-      <span className="mt-1 text-sm text-muted-foreground">{label}</span>
-    </div>
-  );
-}
