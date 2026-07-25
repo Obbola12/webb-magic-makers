@@ -13,6 +13,7 @@ import { useEffect } from "react";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
+import umegolvLogo from "../assets/umegolv-logo.png.asset.json";
 
 function NotFoundComponent() {
   return (
@@ -109,7 +110,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: ReactNode }) {
   return (
-    <html lang="sv">
+    <html lang="sv" className="dark">
       <head>
         <HeadContent />
       </head>
@@ -126,7 +127,7 @@ function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link to="/" className="flex items-center gap-2">
-          <span className="text-xl font-semibold tracking-tight text-foreground">UmeGolv</span>
+          <img src={umegolvLogo.url} alt="UmeGolv" className="h-10 w-auto" />
         </Link>
         <nav className="hidden items-center gap-8 md:flex">
           <Link
@@ -253,7 +254,7 @@ function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid gap-8 md:grid-cols-3">
           <div>
-            <span className="text-lg font-semibold text-foreground">UmeGolv</span>
+            <img src={umegolvLogo.url} alt="UmeGolv" className="h-10 w-auto" />
             <p className="mt-2 text-sm text-muted-foreground">
               Professionell golvslipning, lackning och läggning av trägolv i Umeå med omnejd.
             </p>
