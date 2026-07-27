@@ -143,11 +143,11 @@ function Index() {
               <ArrowRight className="h-4 w-4" />
             </Link>
             <a
-              href="tel:+46701234567"
+              href="tel:+46702555035"
               className="inline-flex items-center justify-center rounded-md border border-primary-foreground/30 bg-transparent px-6 py-3 text-base font-medium text-primary-foreground transition-colors hover:bg-primary-foreground/10"
             >
               <Phone className="mr-2 h-4 w-4" />
-              070-123 45 67
+              0702555035
             </a>
           </div>
         </div>
