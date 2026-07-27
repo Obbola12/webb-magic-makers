@@ -55,8 +55,8 @@ function KontaktPage() {
                 <ContactInfoItem
                   icon={<Phone className="h-5 w-5" />}
                   label="Telefon"
-                  value="070-123 45 67"
-                  href="tel:+46701234567"
+                  value="070-255 50 35"
+                  href="tel:+46702555035"
                 />
                 <ContactInfoItem
                   icon={<Mail className="h-5 w-5" />}
@@ -136,7 +136,7 @@ function KontaktPage() {
                       id="phone"
                       name="phone"
                       type="tel"
-                      placeholder="070-123 45 67"
+                      placeholder="070-255 50 35"
                       className="w-full rounded-md border border-input bg-background px-3 py-2 text-sm text-foreground placeholder:text-muted-foreground focus:border-primary focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 focus:ring-offset-background"
                     />
                   </div>
