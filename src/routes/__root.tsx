@@ -252,13 +252,7 @@ function Footer() {
   return (
     <footer className="w-full border-t border-border bg-muted/30">
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-        <div className="grid gap-8 md:grid-cols-3">
-          <div>
-            <img src={umegolvLogo.url} alt="UmeGolv" className="h-40 w-auto" />
-            <p className="mt-2 text-sm text-muted-foreground">
-              Professionell golvslipning, lackning och läggning av trägolv i Umeå med omnejd.
-            </p>
-          </div>
+        <div className="grid gap-8 md:grid-cols-2">
           <div>
             <h3 className="text-sm font-semibold text-foreground">Snabblänkar</h3>
             <ul className="mt-3 space-y-2">
@@ -289,8 +283,8 @@ function Footer() {
             <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
               <li>Umeå, Sverige</li>
               <li>
-                <a href="tel:+46701234567" className="transition-colors hover:text-foreground">
-                  070-123 45 67
+                <a href="tel:+46702555035" className="transition-colors hover:text-foreground">
+                  070-255 50 35
                 </a>
               </li>
               <li>
