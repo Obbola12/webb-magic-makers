@@ -43,7 +43,7 @@ function OmOssPage() {
               </h2>
               <div className="mt-6 space-y-4 text-muted-foreground">
                 <p>
-                  Företaget startades med en enkel idé: att erbjuda Umeåborna ett pålitligt och personligt alternativ för golvrenovering. Med åren har vi slipat, lackat och lagt golv i allt från små lägenheter till större villor och lokaler.
+                  Företaget startades med en enkel idé: att erbjuda Umeåborna ett pålitligt och personligt alternativ för golvrenovering.
                 </p>
                 <p>
                   Vi är stolta över att vara ett lokalt företag. Det betyder att vi känner till förutsättningarna i regionen, från fuktiga källare till torra vinterklimat, och kan ge råd som håller i längden.
