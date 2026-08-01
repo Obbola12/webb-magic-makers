@@ -1,6 +1,6 @@
 import * as React from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ArrowRight, Check, Layers, Phone, Shield, Star } from "lucide-react";
+import { ArrowRight, Check, Cog, Droplets, Layers, Phone } from "lucide-react";
 
 import heroImage from "@/assets/hero-golv.jpg";
 
@@ -86,13 +86,13 @@ function Index() {
           </div>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <ServiceCard
-              icon={<Shield className="h-6 w-6" />}
+              icon={<Cog className="h-6 w-6" />}
               title="Golvslipning"
               description="Vi slipar bort slitage, repor och fläckar så att träet får nytt liv. Fungerar på de flesta trägolvstyper."
               to="/tjanster"
             />
             <ServiceCard
-              icon={<Star className="h-6 w-6" />}
+              icon={<Droplets className="h-6 w-6" />}
               title="Lackning & oljning"
               description="Skydda och förstärk träets naturliga skönhet med hållbara lacker och oljor anpassade efter användning."
               to="/tjanster"
