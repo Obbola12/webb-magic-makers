@@ -118,7 +118,6 @@ function Index() {
           </p>
           <ul className="mt-8 space-y-4 text-left">
             <BenefitItem text="Lång erfarenhet av golvrenovering och installation" />
-            <BenefitItem text="Noggrant arbete med rena snitt och jämna ytor" />
             <BenefitItem text="Miljövänliga och hållbara materialval" />
             <BenefitItem text="Tydliga offerter och inga dolda kostnader" />
           </ul>
