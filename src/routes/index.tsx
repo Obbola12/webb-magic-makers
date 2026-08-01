@@ -1,6 +1,6 @@
 import * as React from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ArrowRight, Check, Phone, Shield, Star } from "lucide-react";
+import { ArrowRight, Check, Layers, Phone, Shield, Star } from "lucide-react";
 
 import heroImage from "@/assets/hero-golv.jpg";
 
@@ -98,7 +98,7 @@ function Index() {
               to="/tjanster"
             />
             <ServiceCard
-              icon={<Phone className="h-6 w-6" />}
+              icon={<Layers className="h-6 w-6" />}
               title="Trägolvsättning"
               description="Vi lägger nya trägolv i plank, parkett eller stav med millimeterprecision och rätt grundarbete."
               to="/tjanster"
