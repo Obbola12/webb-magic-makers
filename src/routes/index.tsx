@@ -1,6 +1,6 @@
 import * as React from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ArrowRight, Check, Phone, Shield, Star } from "lucide-react";
+import { ArrowRight, Check, Layers, Shield, Star } from "lucide-react";
 
 import heroImage from "@/assets/hero-golv.jpg";
 
