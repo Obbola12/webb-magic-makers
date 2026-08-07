@@ -3,7 +3,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, Check, Droplets, Layers, Sparkles } from "lucide-react";
 
 import slipningImage from "@/assets/service-slipning.jpg";
-import lackningImage from "@/assets/service-lackning.jpg";
+import lackningImage from "@/assets/hero-golv.jpg";
 
 export const Route = createFileRoute("/tjanster")({
   head: () => ({
@@ -53,7 +53,7 @@ function TjansterPage() {
               description="Rätt ytbehandling skyddar träet och ger golvet dess slutgiltiga utseende. Vi hjälper dig välja mellan lack och olja utifrån slitstyrka, skötsel och estetik."
               features={["Vattenbaserad lack med låg lukt", "Hårdvaxolja för naturlig känsla", "Flera strykningar för hållbarhet", "Miljövänliga alternativ"]}
               image={lackningImage}
-              imageAlt="Nylackerat trägolv med vacker finish"
+              imageAlt="Vackert lackerat trägolv i ljust vardagsrum"
               reversed={true}
             />
             <ServiceDetail
