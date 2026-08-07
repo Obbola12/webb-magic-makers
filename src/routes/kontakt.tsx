@@ -67,7 +67,7 @@ function KontaktPage() {
                 <ContactInfoItem
                   icon={<MapPin className="h-5 w-5" />}
                   label="Adress"
-                  value="Umeå, Sverige"
+                  value="Östrakyrkogatan 65A, 90343 Umeå"
                   href={null}
                 />
               </div>
