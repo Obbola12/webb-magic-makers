@@ -281,7 +281,7 @@ function Footer() {
           <div>
             <h3 className="text-sm font-semibold text-foreground">Kontakt</h3>
             <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
-              <li>Umeå, Sverige</li>
+              <li>Östrakyrkogatan 65A, 90343 Umeå</li>
               <li>
                 <a href="tel:+46702555035" className="transition-colors hover:text-foreground">
                   070-255 50 35
