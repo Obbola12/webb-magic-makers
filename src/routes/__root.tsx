@@ -127,7 +127,7 @@ function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="mx-auto flex h-44 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link to="/" className="flex items-center gap-2">
-          <img src={umegolvLogo.url} alt="UmeGolv" className="h-40 w-auto" />
+          <img src={umegolvLogo} alt="UmeGolv" className="h-40 w-auto" />
         </Link>
         <nav className="hidden items-center gap-8 md:flex">
           <Link
