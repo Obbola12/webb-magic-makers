@@ -71,19 +71,6 @@ function KontaktPage() {
                   href={null}
                 />
               </div>
-              <div className="mt-8 rounded-xl border border-border bg-muted/30 p-6">
-                <h3 className="text-lg font-semibold text-foreground">Öppettider</h3>
-                <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
-                  <li className="flex justify-between">
-                    <span>Måndag – Fredag</span>
-                    <span className="font-medium text-foreground">07:00 – 17:00</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Lördag – Söndag</span>
-                    <span className="font-medium text-foreground">Stängt</span>
-                  </li>
-                </ul>
-              </div>
             </div>
 
             {/* Contact form */}
