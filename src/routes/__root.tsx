@@ -13,7 +13,7 @@ import { useEffect } from "react";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
-import umegolvLogo from "../assets/umegolv-logo.png.asset.json";
+import umegolvLogo from "../assets/umegolv-logo-clean.png";
 
 function NotFoundComponent() {
   return (
@@ -99,7 +99,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap",
       },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+      { rel: "icon", href: "/favicon.png", type: "image/png" },
     ],
   }),
   shellComponent: RootShell,
@@ -127,7 +127,7 @@ function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="mx-auto flex h-44 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link to="/" className="flex items-center gap-2">
-          <img src={umegolvLogo.url} alt="UmeGolv" className="h-40 w-auto" />
+          <img src={umegolvLogo} alt="UmeGolv" className="h-40 w-auto" />
         </Link>
         <nav className="hidden items-center gap-8 md:flex">
           <Link
