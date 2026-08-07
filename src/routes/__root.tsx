@@ -13,7 +13,7 @@ import { useEffect } from "react";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
-import umegolvLogo from "../assets/umegolv-logo-clean.png";
+import umegolvLogo from "../assets/umegolv-logo-transparent.png.asset.json";
 
 function NotFoundComponent() {
   return (
