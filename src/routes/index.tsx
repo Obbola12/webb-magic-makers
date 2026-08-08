@@ -100,7 +100,7 @@ function Index() {
             <ServiceCard
               icon={<Layers className="h-6 w-6" />}
               title="Trägolvsättning"
-              description="vi lägger nya trägolv i plank, parkett eller stav och alltid med rätt grundarbete."
+              description="Vi lägger nya trägolv i plank, parkett eller stav och alltid med rätt grundarbete."
               to="/tjanster"
             />
           </div>
