@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "sdk_version": "0.26.2",
+  "path": "/mcp",
+  "auth": {
+    "type": "none"
+  },
+  "mcp": {
+    "server": {
+      "name": "my-awesome-website-25",
+      "version": "0.1.0",
+      "title": "My Awesome Website (25)"
+    },
+    "tools": [
+      {
+        "name": "list_services",
+        "title": "Lista tjänster",
+        "description": "Lista UmeGolvs tjänster (golvslipning, lackning & oljning, trägolvsättning) med beskrivning och vad som ingår.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {}
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "get_contact_info",
+        "title": "Hämta kontaktuppgifter",
+        "description": "Hämta UmeGolvs publika kontaktuppgifter: adress, telefonnummer, e-post och verksamhetsområde.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {}
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "get_process",
+        "title": "Hämta arbetsprocess",
+        "description": "Hämta UmeGolvs arbetsprocess steg för steg: kontakt, offert, utförande och färdigställande.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {}
+        },
+        "outputSchema": null
+      }
+    ]
+  }
+}
