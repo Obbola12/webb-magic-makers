@@ -252,48 +252,21 @@ function Footer() {
   return (
     <footer className="w-full border-t border-border bg-muted/30">
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-        <div className="grid gap-8 md:grid-cols-2">
-          <div>
-            <h3 className="text-sm font-semibold text-foreground">Snabblänkar</h3>
-            <ul className="mt-3 space-y-2">
-              <li>
-                <Link to="/" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
-                  Start
-                </Link>
-              </li>
-              <li>
-                <Link to="/tjanster" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
-                  Tjänster
-                </Link>
-              </li>
-              <li>
-                <Link to="/om-oss" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
-                  Om oss
-                </Link>
-              </li>
-              <li>
-                <Link to="/kontakt" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
-                  Kontakt
-                </Link>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="text-sm font-semibold text-foreground">Kontakt</h3>
-            <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
-              <li>Östrakyrkogatan 65A, 90343 Umeå</li>
-              <li>
-                <a href="tel:+46702555035" className="transition-colors hover:text-foreground">
-                  070-255 50 35
-                </a>
-              </li>
-              <li>
-                <a href="mailto:info@umegolv.se" className="transition-colors hover:text-foreground">
-                  info@umegolv.se
-                </a>
-              </li>
-            </ul>
-          </div>
+        <div className="max-w-md">
+          <h3 className="text-sm font-semibold text-foreground">Kontakt</h3>
+          <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
+            <li>Östrakyrkogatan 65A, 90343 Umeå</li>
+            <li>
+              <a href="tel:+46702555035" className="transition-colors hover:text-foreground">
+                070-255 50 35
+              </a>
+            </li>
+            <li>
+              <a href="mailto:info@umegolv.se" className="transition-colors hover:text-foreground">
+                info@umegolv.se
+              </a>
+            </li>
+          </ul>
         </div>
         <div className="mt-12 border-t border-border pt-6 text-center text-sm text-muted-foreground">
           © {new Date().getFullYear()} UmeGolv. Alla rättigheter förbehållna.
