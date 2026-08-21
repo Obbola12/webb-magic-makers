@@ -44,7 +44,7 @@ function Index() {
                   Se våra tjänster
                 </Link>
               </div>
-              <div className="mt-8 flex items-center gap-6 text-sm text-muted-foreground">
+              <div className="mt-8 flex flex-wrap items-center gap-6 text-sm text-muted-foreground">
                 <div className="flex items-center gap-2">
                   <Check className="h-4 w-4 text-primary" />
                   <span>Försäkrade</span>
@@ -56,6 +56,10 @@ function Index() {
                 <div className="flex items-center gap-2">
                   <Check className="h-4 w-4 text-primary" />
                   <span>Snabb återkoppling</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Check className="h-4 w-4 text-primary" />
+                  <span>Innehar F-skatt</span>
                 </div>
               </div>
             </div>
