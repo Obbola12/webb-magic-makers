@@ -5,7 +5,7 @@ export const company = {
   area: "Umeå med omnejd",
   address: "Östrakyrkogatan 65A, 90343 Umeå",
   phone: "070-255 50 35",
-  email: "info@umegolv.se",
+  email: "umegolv@outlook.com",
 };
 
 export const services = [

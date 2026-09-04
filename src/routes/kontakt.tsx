@@ -61,8 +61,8 @@ function KontaktPage() {
                 <ContactInfoItem
                   icon={<Mail className="h-5 w-5" />}
                   label="E-post"
-                  value="info@umegolv.se"
-                  href="mailto:info@umegolv.se"
+                  value="umegolv@outlook.com"
+                  href="mailto:umegolv@outlook.com"
                 />
                 <ContactInfoItem
                   icon={<MapPin className="h-5 w-5" />}
