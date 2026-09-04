@@ -262,8 +262,8 @@ function Footer() {
               </a>
             </li>
             <li>
-              <a href="mailto:info@umegolv.se" className="transition-colors hover:text-foreground">
-                info@umegolv.se
+              <a href="mailto:umegolv@outlook.com" className="transition-colors hover:text-foreground">
+                umegolv@outlook.com
               </a>
             </li>
           </ul>
