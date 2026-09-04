@@ -2,7 +2,7 @@
 
 ## Förslag
 - Skapa en helt ny logga i svart och varmt guld, inspirerad av den bifogade känslan men med ett eget uttryck.
-- Behålla **UMEGOLV.SE** som tydlig huvudtext.
+- Huvudtexten blir **UMEGOLV & INTERIÖR** för att matcha det registrerade företagsnamnet.
 - Använda en ren, tunn ram och en förenklad, unik trädetalj som fungerar även i mindre storlek.
 - Leverera loggan med transparent bakgrund och utan vattenstämplar.
 
