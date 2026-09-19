@@ -1,17 +1,12 @@
-# Ny logga för UmeGolv
+# Ändra e-postadress tillbaka till info@umegolv.se
 
-## Förslag
-- Skapa en helt ny logga i svart och varmt guld, inspirerad av den bifogade känslan men med ett eget uttryck.
-- Huvudtexten blir **UMEGOLV & INTERIÖR** för att matcha det registrerade företagsnamnet.
-- Använda en ren, tunn ram och en förenklad, unik trädetalj som fungerar även i mindre storlek.
-- Leverera loggan med transparent bakgrund och utan vattenstämplar.
+## Vad som ska göras
+Byta ut `umegolv@outlook.com` mot `info@umegolv.se` på alla ställen där den visas.
 
-## Godkännande
-- Först visas den färdiga loggan separat för granskning.
-- Inga bilder eller loggor på hemsidan byts ut innan loggan har godkänts.
-- Hemsidan publiceras inte som en del av detta arbete.
+## Tekniska detaljer
+Följande filer uppdateras:
+- `src/lib/mcp/company.ts` — e-postfältet i företagsdatan.
+- `src/routes/__root.tsx` — e-postlänken (mailto) och adressen i sidfoten.
+- `src/routes/kontakt.tsx` — e-postvärdet och mailto-länken på kontaktsidan.
 
-## Efter godkännande
-- Ersätta den nuvarande loggan på hemsidan.
-- Anpassa storleken så att den är tydlig på både mobil och dator.
-- Skapa en matchande liten webbläsarikon från samma märke.
+Efter ändringarna görs en byggkontroll så inga fel uppstått.
