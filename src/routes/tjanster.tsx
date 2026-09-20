@@ -3,15 +3,16 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, Check, Droplets, Layers, Sparkles } from "lucide-react";
 
 import slipningImage from "@/assets/service-slipning.jpg";
-import lackningImage from "@/assets/hero-golv.jpg";
+import golvvardImage from "@/assets/service-golvvard.jpg";
+import epoxiImage from "@/assets/service-epoxi.jpg";
 
 export const Route = createFileRoute("/tjanster")({
   head: () => ({
     meta: [
-      { title: "Våra tjänster — UmeGolv" },
-      { name: "description", content: "UmeGolv erbjuder golvslipning, lackning, oljning och läggning av trägolv i Umeå. Se vad vi kan hjälpa dig med." },
-      { property: "og:title", content: "Våra tjänster — UmeGolv" },
-      { property: "og:description", content: "UmeGolv erbjuder golvslipning, lackning, oljning och läggning av trägolv i Umeå." },
+      { title: "Våra tjänster — UmeGolv & Interiör" },
+      { name: "description", content: "Golvslipning och lackning av trägolv, golvvård med nollställning och polish av plast- och linoleummatta samt betongslipning och epoxiläggning i Umeå." },
+      { property: "og:title", content: "Våra tjänster — UmeGolv & Interiör" },
+      { property: "og:description", content: "Golvslipning och lackning av trägolv, golvvård och polish av plast- och linoleummatta samt betongslipning och epoxiläggning i Umeå." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
@@ -29,7 +30,7 @@ function TjansterPage() {
             Våra tjänster
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
-            Oavsett om du vill fräscha upp ett slitet golv eller lägga helt nytt trägolv har vi kompetensen och utrustningen.
+            Från slipning och lackning av trägolv till golvvård av mattgolv och slitstarka betong- och epoxigolv.
           </p>
         </div>
       </section>
@@ -40,34 +41,51 @@ function TjansterPage() {
           <div className="space-y-20">
             <ServiceDetail
               icon={<Sparkles className="h-6 w-6" />}
-              title="Golvslipning"
-              description="Slipning är det mest kostnadseffektiva sättet att ge gamla trägolv nytt liv. Vi tar bort ytslitage, repor, färgstänk och mindre skador, och förbereder ytan inför lack eller olja."
-              features={["Maskinslipning av de flesta trägolvstyper", "Kantslipning längs väggar och lister", "Dammsugning och ytförberedelse", "Grundbehandling före lack eller olja"]}
+              title="Golvslipning & lackning av trägolv"
+              description="Komplett renovering av trä- och parkettgolv. Vi slipar bort repor, slitage och ojämnheter och förseglar med slitstark lack, hårdvaxolja eller lut/såpa."
+              features={[
+                "Maskinslipning med modern och dammreducerad utrustning",
+                "Kantslipning och noggrann förberedelse längs lister",
+                "Ytbehandling med slitstark lack eller naturlig hårdvaxolja",
+                "Renovering av både furutiljor, stavparkett och lamellparkett",
+              ]}
               image={slipningImage}
               imageAlt="Golvslipning med professionell utrustning"
               reversed={false}
             />
             <ServiceDetail
               icon={<Droplets className="h-6 w-6" />}
-              title="Lackning & oljning"
-              description="Rätt ytbehandling skyddar träet och ger golvet dess slutgiltiga utseende. Vi hjälper dig välja mellan lack och olja utifrån slitstyrka, skötsel och estetik."
-              features={["Vattenbaserad lack med låg lukt", "Hårdvaxolja för naturlig känsla", "Flera strykningar för hållbarhet", "Miljövänliga alternativ"]}
-              image={lackningImage}
-              imageAlt="Vackert lackerat trägolv i ljust vardagsrum"
+              title="Golvvård, nollställning & polish (Plast & linoleum)"
+              description="Professionell djuprengöring, nollställning (strippning av gamla polishlager) och ny skyddande polishbehandling som återger mattans färg, lyster och slitstyrka."
+              features={[
+                "Maskinell nollställning och borttagning av gamla beläggningar",
+                "Djuprengöring av porer och svåra fläckar",
+                "Flera lager skyddspolish för maximal livslängd och smutsavvisning",
+                "Underhållsavtal med high-speed polering",
+                "Förlänger golvets livslängd och underlättar daglig städning",
+              ]}
+              image={golvvardImage}
+              imageAlt="Nypolerat linoleumgolv i en ljus korridor"
               reversed={true}
             />
             <ServiceDetail
               icon={<Layers className="h-6 w-6" />}
-              title="Trägolvsättning"
-              description="Vi lägger nya trägolv i privatbostäder, kontor och lokaler. Allt från råspont och plank till parkett och stavparkett — alltid med noggrant underarbete."
-              features={["Rådgivning kring golvval och material", "Fuktmätning och underlagskontroll", "Isolering och ångspärr vid behov", "Färdigbehandling enligt önskemål"]}
-              image={null}
-              imageAlt=""
+              title="Betongslipning & epoxiläggning"
+              description="Slitstarka lösningar för garage, källare, verkstäder och kommersiella ytor. Vi slipar betong för jämnhet och finish eller lägger fogfria, kemikalie- och slagtåliga epoxibeläggningar."
+              features={[
+                "Diamantslipning av betongplattor och avjämning",
+                "Fogfria eller målade epoxigolv med hög tålighet mot fukt, olja och kemikalier",
+                "Lättstädade, dammfria och extremt slitstarka ytor",
+                "Anpassas med färg och halkskydd efter behov",
+              ]}
+              image={epoxiImage}
+              imageAlt="Fogfritt grått epoxigolv i ett garage"
               reversed={false}
             />
           </div>
         </div>
       </section>
+
 
       {/* Process */}
       <section className="border-t border-border bg-muted/30 py-16 sm:py-24">
