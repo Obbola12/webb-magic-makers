@@ -91,23 +91,24 @@ function Index() {
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <ServiceCard
               icon={<Cog className="h-6 w-6" />}
-              title="Golvslipning"
-              description="Vi slipar bort slitage, repor och fläckar så att träet får nytt liv. Fungerar på de flesta trägolvstyper."
+              title="Golvslipning & lackning av trägolv"
+              description="Vi slipar bort repor, slitage och ojämnheter och förseglar med slitstark lack, hårdvaxolja eller lut/såpa."
               to="/tjanster"
             />
             <ServiceCard
               icon={<Droplets className="h-6 w-6" />}
-              title="Lackning & oljning"
-              description="Skydda och förstärk träets naturliga skönhet med hållbara lacker och oljor anpassade efter användning."
+              title="Golvvård, nollställning & polish (Plast & linoleum)"
+              description="Djuprengöring, nollställning och ny skyddande polish som återger mattans färg, lyster och slitstyrka. Underhållsavtal med high-speed polering."
               to="/tjanster"
             />
             <ServiceCard
               icon={<Layers className="h-6 w-6" />}
-              title="Trägolvsättning"
-              description="Vi lägger nya trägolv i plank, parkett eller stav och alltid med rätt grundarbete."
+              title="Betongslipning & epoxiläggning"
+              description="Diamantslipning av betong samt fogfria eller målade epoxigolv för garage, källare, verkstäder och lokaler."
               to="/tjanster"
             />
           </div>
+
         </div>
       </section>
 

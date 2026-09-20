@@ -10,42 +10,44 @@ export const company = {
 
 export const services = [
   {
-    id: "golvslipning",
-    name: "Golvslipning",
+    id: "golvslipning-lackning-tragolv",
+    name: "Golvslipning & lackning av trägolv",
     description:
-      "Slipning är det mest kostnadseffektiva sättet att ge gamla trägolv nytt liv. Vi tar bort ytslitage, repor, färgstänk och mindre skador, och förbereder ytan inför lack eller olja.",
+      "Komplett renovering av trä- och parkettgolv. Vi slipar bort repor, slitage och ojämnheter och förseglar med slitstark lack, hårdvaxolja eller lut/såpa.",
     features: [
-      "Maskinslipning av de flesta trägolvstyper",
-      "Kantslipning längs väggar och lister",
-      "Dammsugning och ytförberedelse",
-      "Grundbehandling före lack eller olja",
+      "Maskinslipning med modern och dammreducerad utrustning",
+      "Kantslipning och noggrann förberedelse längs lister",
+      "Ytbehandling med slitstark lack eller naturlig hårdvaxolja",
+      "Renovering av både furutiljor, stavparkett och lamellparkett",
     ],
   },
   {
-    id: "lackning-oljning",
-    name: "Lackning & oljning",
+    id: "golvvard-nollstallning-polish",
+    name: "Golvvård, nollställning & polish (Plast & linoleum)",
     description:
-      "Rätt ytbehandling skyddar träet och ger golvet dess slutgiltiga utseende. Vi hjälper dig välja mellan lack och olja utifrån slitstyrka, skötsel och estetik.",
+      "Professionell djuprengöring, nollställning (strippning av gamla polishlager) och ny skyddande polishbehandling som återger mattans färg, lyster och slitstyrka.",
     features: [
-      "Vattenbaserad lack med låg lukt",
-      "Hårdvaxolja för naturlig känsla",
-      "Flera strykningar för hållbarhet",
-      "Miljövänliga alternativ",
+      "Maskinell nollställning och borttagning av gamla beläggningar",
+      "Djuprengöring av porer och svåra fläckar",
+      "Flera lager skyddspolish för maximal livslängd och smutsavvisning",
+      "Underhållsavtal med high-speed polering",
+      "Förlänger golvets livslängd och underlättar daglig städning",
     ],
   },
   {
-    id: "tragolvsattning",
-    name: "Trägolvsättning",
+    id: "betongslipning-epoxilaggning",
+    name: "Betongslipning & epoxiläggning",
     description:
-      "Vi lägger nya trägolv i privatbostäder, kontor och lokaler. Allt från råspont och plank till parkett och stavparkett — alltid med noggrant underarbete.",
+      "Slitstarka lösningar för garage, källare, verkstäder och kommersiella ytor. Vi slipar betong för jämnhet och finish eller lägger fogfria, kemikalie- och slagtåliga epoxibeläggningar.",
     features: [
-      "Rådgivning kring golvval och material",
-      "Fuktmätning och underlagskontroll",
-      "Isolering och ångspärr vid behov",
-      "Färdigbehandling enligt önskemål",
+      "Diamantslipning av betongplattor och avjämning",
+      "Fogfria eller målade epoxigolv med hög tålighet mot fukt, olja och kemikalier",
+      "Lättstädade, dammfria och extremt slitstarka ytor",
+      "Anpassas med färg och halkskydd efter behov",
     ],
   },
 ];
+
 
 export const processSteps = [
   { step: "01", name: "Kontakt", description: "Du beskriver ditt projekt så återkommer vi med en tid för besiktning." },
