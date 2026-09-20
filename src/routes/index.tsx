@@ -7,10 +7,10 @@ import heroImage from "@/assets/service-lackning.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "UmeGolv — Golvslipning, lackning & trägolvsättning i Umeå" },
-      { name: "description", content: "UmeGolv erbjuder professionell golvslipning, lackning och läggning av trägolv i Umeå med omnejd. Hantverkskvalitet och personlig service." },
-      { property: "og:title", content: "UmeGolv — Golvslipning, lackning & trägolvsättning i Umeå" },
-      { property: "og:description", content: "UmeGolv erbjuder professionell golvslipning, lackning och läggning av trägolv i Umeå med omnejd." },
+      { title: "UmeGolv — Golvslipning, golvvård & epoxiläggning i Umeå" },
+      { name: "description", content: "UmeGolv erbjuder professionell golvslipning och lackning av trägolv, golvvård och polish för plast- och linoleummattor, samt betongslipning och slitstark epoxiläggning i Umeå." },
+      { property: "og:title", content: "UmeGolv — Golvslipning, golvvård & epoxiläggning i Umeå" },
+      { property: "og:description", content: "UmeGolv erbjuder professionell golvslipning och lackning av trägolv, golvvård och polish för plast- och linoleummattor, samt betongslipning och slitstark epoxiläggning i Umeå." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
@@ -27,7 +27,7 @@ function Index() {
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="max-w-2xl">
               <p className="text-lg text-muted-foreground">
-                UmeGolv är din lokala golventreprenör. Vi renoverar, slipar, lackar och lägger trägolv med fokus på hållbart hantverk och ett resultat du kan leva med i många år.
+                UmeGolv är din lokala golventreprenör. Vi erbjuder professionell golvslipning och lackning av trägolv, golvvård och polish för plast- och linoleummattor, samt betongslipning och slitstark epoxiläggning.
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
                 <Link
@@ -85,7 +85,7 @@ function Index() {
               Vad vi gör
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
-              Från slitna golv till nyinstallerade trägolv — vi hanterar hela processen med precision.
+              Från slitna trägolv och mattskötsel till tåliga epoxigolv — vi hanterar hela processen med precision.
             </p>
           </div>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
